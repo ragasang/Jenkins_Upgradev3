@@ -17,7 +17,7 @@ pipeline {
                         echo "Deploying in Staging Area"
                   }
             }
-<<<<<<< HEAD
+
             stage('Deploy Production') {
                   steps {
                         echo "Deploying in Production Area"
@@ -29,7 +29,6 @@ pipeline {
             }
 
             }
-=======
->>>>>>> parent of 1c44c12... Edit JenkisnFile
+
       }
 }
